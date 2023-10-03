@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T07:50:21.640Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="1wMrNg_hN4PR0ZBqm5mK" version="22.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-03T07:53:36.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="eFbAC-ktTAIY94I9Lc2j" version="22.0.1" type="github">
   <diagram name="Page-1" id="sOd9fzR-GMDbQcMOZskv">
-    <mxGraphModel dx="806" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="625" dy="393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,6 +84,12 @@
             <mxPoint x="425" y="555" as="sourcePoint" />
             <mxPoint x="475" y="505" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7q7vGCsFoiIL-1WahQ8g-7" value="start: Local" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="30" y="570" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7q7vGCsFoiIL-1WahQ8g-8" value="start: Remote" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="740" y="550" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
