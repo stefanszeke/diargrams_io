@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T07:18:11.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="6MhLy-5YNFFmgdStKsp2" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T07:38:55.286Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="7vPp9KOzNHxc6nbzn0qF" version="22.0.4" type="github">
   <diagram name="Page-1" id="MSIoGPNDZOMiKKW6uGxm">
-    <mxGraphModel dx="2100" dy="982" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1892" dy="818" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -158,7 +158,7 @@
         <mxCell id="b5SDesVPOj9JkVi7T8pp-79" value="status" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="270" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="v7aW_iiHACFJ6FqaktTF-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b5SDesVPOj9JkVi7T8pp-80" target="b5SDesVPOj9JkVi7T8pp-81">
+        <mxCell id="v7aW_iiHACFJ6FqaktTF-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b5SDesVPOj9JkVi7T8pp-80" target="b5SDesVPOj9JkVi7T8pp-81" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b5SDesVPOj9JkVi7T8pp-80" value="AuthorizationStatus (enum)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
@@ -197,7 +197,7 @@
         <mxCell id="RD3YJDaeZzMR544hjIYX-15" value="send" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-208.75" y="360" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="RD3YJDaeZzMR544hjIYX-16" value="IdTagEntity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="RD3YJDaeZzMR544hjIYX-16" value="&lt;div&gt;IdTagInfo&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-150" y="360" width="185" height="20" as="geometry" />
         </mxCell>
         <mxCell id="RD3YJDaeZzMR544hjIYX-19" value="StartTransaction.req" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -221,7 +221,7 @@
         <mxCell id="RD3YJDaeZzMR544hjIYX-25" value="send" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-215" y="615" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="RD3YJDaeZzMR544hjIYX-26" value="IdTagEntity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="RD3YJDaeZzMR544hjIYX-26" value="&lt;div&gt;IdTagInfo&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-156.25" y="615" width="185" height="20" as="geometry" />
         </mxCell>
         <mxCell id="RD3YJDaeZzMR544hjIYX-29" value="status" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
