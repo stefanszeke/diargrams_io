@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T10:02:25.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="goynEJON2kkNFz84Uvpg" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T10:05:13.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="U-1BY189iu8D8Kl4otEk" version="22.1.2" type="github">
   <diagram name="Page-1" id="yOUFaCtAM69SyQl96-M3">
-    <mxGraphModel dx="997" dy="818" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1847" dy="818" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DhphQR0WTkYj_wjM38mZ-2" value="&lt;br&gt;Azure Function&lt;br&gt;Java&lt;br&gt;Serverles&lt;br&gt;(central station)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="530" y="440" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DhphQR0WTkYj_wjM38mZ-3" value="pubsub" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="DhphQR0WTkYj_wjM38mZ-3" value="PubSub " style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="280" y="450" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DhphQR0WTkYj_wjM38mZ-4" value="Charging Stations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -38,7 +38,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DhphQR0WTkYj_wjM38mZ-19" value="Azure" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="125" y="340" width="100" height="40" as="geometry" />
+          <mxGeometry x="50" y="260" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DhphQR0WTkYj_wjM38mZ-28" value="hearthbeat" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="150" y="490" width="100" height="30" as="geometry" />
@@ -90,6 +90,12 @@
         </mxCell>
         <mxCell id="yuhe6naUO8FPMxWjMtai-10" value="http" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="570" y="540" width="45" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="yuhe6naUO8FPMxWjMtai-12" value="PubSub is handling the websocket connections" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="325" width="275" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="yuhe6naUO8FPMxWjMtai-13" value="Azure Function is handling the messages from PubSub(from the charging station)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="350" width="275" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
