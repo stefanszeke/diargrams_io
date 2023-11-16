@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T09:33:33.203Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="-nkZcM-MhZZ7ip2ijBMa" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T09:37:35.197Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="0ePmPeDofMA-OHZfWvKM" version="22.1.2" type="github">
   <diagram name="Page-1" id="swX_OmcifyCcQ__FE-wy">
-    <mxGraphModel dx="1478" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2231" dy="1403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JxlkaKrIeEIBKMhmb0Ot-1" value="&lt;div&gt;AZURE Functions&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="160" y="320" width="240" height="30" as="geometry" />
+        <mxCell id="JxlkaKrIeEIBKMhmb0Ot-1" value="&lt;div&gt;AZURE Functions&amp;nbsp;&lt;/div&gt;&lt;div&gt;App1&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="160" y="310" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JxlkaKrIeEIBKMhmb0Ot-2" value="Central" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="160" y="350" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JxlkaKrIeEIBKMhmb0Ot-3" value="&lt;div&gt;AZURE Functions&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="520" y="320" width="240" height="30" as="geometry" />
+        <mxCell id="JxlkaKrIeEIBKMhmb0Ot-3" value="&lt;div&gt;AZURE Functions&lt;/div&gt;&amp;nbsp;App2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="520" y="310" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JxlkaKrIeEIBKMhmb0Ot-4" value="Database" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="520" y="350" width="240" height="30" as="geometry" />
@@ -85,7 +85,7 @@
         <mxCell id="JxlkaKrIeEIBKMhmb0Ot-35" value="Charging Station" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="220" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JxlkaKrIeEIBKMhmb0Ot-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.409;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="JxlkaKrIeEIBKMhmb0Ot-30" edge="1">
+        <mxCell id="JxlkaKrIeEIBKMhmb0Ot-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.409;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.453;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JxlkaKrIeEIBKMhmb0Ot-30" edge="1" target="JxlkaKrIeEIBKMhmb0Ot-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="269.65999999999997" y="270" as="sourcePoint" />
             <mxPoint x="270" y="320" as="targetPoint" />
