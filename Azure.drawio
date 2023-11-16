@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T10:01:10.228Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="aGjirI2ZpjVmsFFCAMWC" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T10:02:25.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="goynEJON2kkNFz84Uvpg" version="22.1.2" type="github">
   <diagram name="Page-1" id="yOUFaCtAM69SyQl96-M3">
     <mxGraphModel dx="997" dy="818" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="DhphQR0WTkYj_wjM38mZ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.418;entryY=-0.062;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="DhphQR0WTkYj_wjM38mZ-3" target="DhphQR0WTkYj_wjM38mZ-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rq3a15On_nk6PGTsaYT3-1" value="http trigger" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Rq3a15On_nk6PGTsaYT3-1" value="HTTP trigger" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="397.5" y="445" width="95" height="15" as="geometry" />
         </mxCell>
         <mxCell id="yuhe6naUO8FPMxWjMtai-1" value="@Connect&lt;br&gt;&lt;div&gt;1. Charging station tries to connect to &lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;PubSub &lt;/span&gt;(websocket url)&lt;br&gt;2. HTTP Trigger sends a connect message to &lt;span style=&quot;background-color: rgb(255, 242, 204);&quot;&gt;Azure Functions&lt;/span&gt;.&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. If Azure @connect function HTTP response is 200 or 204, the &lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;PubSub &lt;/span&gt;Connection is allowed&lt;br&gt;&lt;/div&gt;&lt;br&gt;UserId is set to the stationID acquired from the websocket url&lt;br&gt;(this will be used to identify the station during subsequent messages)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
@@ -87,6 +87,9 @@
             <mxPoint x="610" y="525" as="sourcePoint" />
             <mxPoint x="610" y="570" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="yuhe6naUO8FPMxWjMtai-10" value="http" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="570" y="540" width="45" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
