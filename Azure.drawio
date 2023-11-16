@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T09:09:35.370Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="NHqyvnaZGFUHRBUvRL9-" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T09:19:02.092Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="fjKAmMaRI7socEp-Uxxi" version="22.1.2" type="github">
   <diagram name="Page-1" id="yOUFaCtAM69SyQl96-M3">
-    <mxGraphModel dx="417" dy="327" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1197" dy="818" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,10 +98,10 @@
           <mxGeometry x="150" y="490" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DhphQR0WTkYj_wjM38mZ-29" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="560" y="360" width="60" height="50" as="geometry" />
+          <mxGeometry x="700" y="460" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DhphQR0WTkYj_wjM38mZ-31" value="&lt;h1 style=&quot;font-size: 12px;&quot; class=&quot;font-size-h2&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 12px;&quot;&gt;Cosmos DB &lt;/span&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=0;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="540" y="340" width="100" height="15" as="geometry" />
+          <mxGeometry x="680" y="440" width="100" height="15" as="geometry" />
         </mxCell>
         <mxCell id="DhphQR0WTkYj_wjM38mZ-33" value="while the app is open,&lt;br&gt;otherwise,&lt;br&gt;Use &lt;span style=&quot;background-color: rgb(254, 203, 84);&quot;&gt;notification hub&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="630" width="120" height="70" as="geometry" />
@@ -115,15 +115,7 @@
         <mxCell id="DhphQR0WTkYj_wjM38mZ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.418;entryY=-0.062;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="DhphQR0WTkYj_wjM38mZ-3" target="DhphQR0WTkYj_wjM38mZ-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DhphQR0WTkYj_wjM38mZ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.145;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;entryX=0.332;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="DhphQR0WTkYj_wjM38mZ-29" target="DhphQR0WTkYj_wjM38mZ-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DhphQR0WTkYj_wjM38mZ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.855;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;" parent="1" target="DhphQR0WTkYj_wjM38mZ-29" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="440" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Rq3a15On_nk6PGTsaYT3-1" value="http trigger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Rq3a15On_nk6PGTsaYT3-1" value="http trigger" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="397.5" y="445" width="95" height="15" as="geometry" />
         </mxCell>
       </root>
