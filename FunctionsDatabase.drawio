@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T09:37:35.197Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="0ePmPeDofMA-OHZfWvKM" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-21T09:50:39.502Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="oDqQ3A3ekCdLfji7LVyN" version="22.1.3" type="github">
   <diagram name="Page-1" id="swX_OmcifyCcQ__FE-wy">
-    <mxGraphModel dx="2231" dy="1403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="684" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
         <mxCell id="JxlkaKrIeEIBKMhmb0Ot-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.021;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JxlkaKrIeEIBKMhmb0Ot-10" target="JxlkaKrIeEIBKMhmb0Ot-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JxlkaKrIeEIBKMhmb0Ot-13" value="http request" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="JxlkaKrIeEIBKMhmb0Ot-13" value="async http request" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="485" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JxlkaKrIeEIBKMhmb0Ot-14" value="@Table1 querry1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -58,7 +58,7 @@
             <mxPoint x="530" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JxlkaKrIeEIBKMhmb0Ot-24" value="Cosmos DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="JxlkaKrIeEIBKMhmb0Ot-24" value="&lt;div&gt;Cosmos DB&lt;/div&gt;&lt;div&gt;serverless&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="585" y="680" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JxlkaKrIeEIBKMhmb0Ot-26" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
@@ -85,7 +85,7 @@
         <mxCell id="JxlkaKrIeEIBKMhmb0Ot-35" value="Charging Station" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="220" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JxlkaKrIeEIBKMhmb0Ot-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.409;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.453;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JxlkaKrIeEIBKMhmb0Ot-30" edge="1" target="JxlkaKrIeEIBKMhmb0Ot-1">
+        <mxCell id="JxlkaKrIeEIBKMhmb0Ot-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.409;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.453;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JxlkaKrIeEIBKMhmb0Ot-30" target="JxlkaKrIeEIBKMhmb0Ot-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="269.65999999999997" y="270" as="sourcePoint" />
             <mxPoint x="270" y="320" as="targetPoint" />
@@ -103,7 +103,7 @@
         <mxCell id="JxlkaKrIeEIBKMhmb0Ot-39" value="http trigger" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="280" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="LG0gamAI-7Yihom5rvxm-4" value="&lt;div align=&quot;left&quot;&gt;OCPP messages are always arrays:&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;[message type, message Id, message Action, {payload}]&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;Depending on the item at index[2]: message Action&lt;/div&gt;&lt;div&gt;we determine how to handle the message.&lt;br&gt;Each case needs to perform different actions on different tables from the database&lt;br&gt;&lt;br&gt;The messages are handled by the function @Message.&lt;/div&gt;&lt;div&gt;The problem is that with function binding, we can only perform one query to CosmosDB.&lt;br&gt;&lt;br&gt;The idea is to create a separate Functions App, with functions for each CRUD operations which we need.&lt;br&gt;Then, from the @Message function, we can use an HTTP Client to asynchronously&lt;br&gt;call the said Azure functions which handles the DB.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="LG0gamAI-7Yihom5rvxm-4" value="&lt;div align=&quot;left&quot;&gt;OCPP messages are always arrays:&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;[message type, message Id, message Action, {payload}]&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;Depending on the item at index[2]: message Action&lt;/div&gt;&lt;div&gt;we determine how to handle the message.&lt;br&gt;Each case needs to perform different actions on different tables from the database&lt;br&gt;&lt;br&gt;The messages are handled by the function @Message.&lt;/div&gt;&lt;div&gt;The problem is that with function binding, we can only perform one query to CosmosDB.&lt;br&gt;&lt;br&gt;The idea is to create a separate Functions App, with functions for each CRUD operations which we need.&lt;br&gt;Then, from the @Message function, we can use an HTTP Client to asynchronously&lt;br&gt;call the said Azure functions which handles the DB.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="390" y="50" width="450" height="250" as="geometry" />
         </mxCell>
       </root>
