@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T09:56:56.913Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" version="23.0.2" etag="wGBDXT_fSg1wf15dQOFH" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-30T11:48:54.665Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="IsUMkmLjYLo_9T02DrT5" version="23.0.2" type="github">
   <diagram name="Page-1" id="wHUk_LWxvM6eQ5D_VXiS">
-    <mxGraphModel>
+    <mxGraphModel dx="1562" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WeaAFbodBgUg4gEEcZFA-2" value="connectorId: 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="240" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WeaAFbodBgUg4gEEcZFA-3" value="stationId: cp001" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WeaAFbodBgUg4gEEcZFA-5" value="user: remoteClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="270" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WeaAFbodBgUg4gEEcZFA-6" value="COMPLETED" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="240" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WeaAFbodBgUg4gEEcZFA-7" value="&lt;div class=&quot;startTime&quot;&gt;2024-01-29T10:56:06Z&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="320" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WeaAFbodBgUg4gEEcZFA-9" value="0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="320" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WeaAFbodBgUg4gEEcZFA-10" value="&lt;div class=&quot;stopTime&quot;&gt;2024-01-29T10:56:52Z&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="350" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WeaAFbodBgUg4gEEcZFA-11" value="20" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="350" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WeaAFbodBgUg4gEEcZFA-12" value="start meter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WeaAFbodBgUg4gEEcZFA-13" value="stop meter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="350" width="80" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
